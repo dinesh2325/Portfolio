@@ -1,0 +1,29 @@
+{
+  "name": "dinesh-portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio website for Dinesh Kumar Paliwal - Software Engineer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "start": "npx serve -s ."
+  },
+  "keywords": [
+    "portfolio",
+    "software engineer",
+    "full stack developer",
+    "golang",
+    "javascript",
+    "react",
+    "nodejs"
+  ],
+  "author": "Dinesh Kumar Paliwal",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

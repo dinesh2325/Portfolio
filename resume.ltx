@@ -1,0 +1,151 @@
+\documentclass{resume}
+\vspace{-1em}
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry}
+\usepackage{enumitem}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Dinesh Kumar Paliwal}
+\address{+91 7878938436 \\ Rajasthan, India}
+\address{\href{mailto:dineshkumarpaliwal83@gmail.com}{dineshkumarpaliwal83@gmail.com} \\ \href{https://www.linkedin.com/in/dinesh-kumar-paliwal/}{LinkedIn} \\ \href{https://github.com/dinesh2325}{Github} \\ \href{https://leetcode.com/u/C_O_D_E_R123/}{Leetcode}}
+
+\begin{document}
+
+\vspace{-01.2em}
+
+% EDUCATION SECTION
+\begin{rSection}{Education}
+
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Motilal Nehru National Institute of Technology, Allahabad}{July 2021 -- Present}
+      {Bachelor of Technology in Electronics and Communication Engineering}{CGPA: 7.99/10}
+
+  \resumeSubHeadingListEnd
+
+\end{rSection}
+
+% \vspace{-0.40em}
+
+% EXPERIENCE SECTION
+\vspace{-0.2em}
+\begin{rSection}{Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {DevRev, Chennai, India}{Jan 2025 – Present}
+  {Member of Technical Staff Intern}{}
+
+\resumeSubHeadingListEnd
+
+\vspace{-0.2em}
+\begin{itemize}
+\item Built a scalable \textbf{Account De-duplication System} with \textbf{Golang}, \textbf{MongoDB}, and \textbf{RPCs}, using a \textbf{Kafka consumer} to trigger create, update, or delete actions.
+
+    \item Proposed a scalable \textbf{Generic De-duplication Architecture} with system design, data flow, and schema to support multiple object types.
+
+\item Achieved \textbf{2x performance improvement} by benchmarking the existing account de-duplication system using custom scripts to run and compare matching algorithms; adopted \textbf{Jaro-Winkler} and \textbf{Levenshtein}.
+
+
+    \item Designed a minimal \textbf{RPC Interface} with \texttt{set} and \texttt{list}; replaced separate create, delete, and update RPCs and enabled filtering by key fields.
+
+    \item Built a dedicated \textbf{Snap-in System} to replace consumers in account deduplication, allowing real-time tracking and suggestions using RPCs.
+\end{itemize}
+\vspace{-0.5em}
+\textbf{Technologies:} Golang, TypeScript, MongoDB, RPC, Microservices, Matching Algorithms, Event-Driven Systems
+
+\end{rSection}
+
+
+\vspace{-0.4em}
+
+% PROJECTS SECTION
+\begin{rSection}{Projects}
+\vspace{-1.25em}
+
+
+\item \textbf{Mess Matrix} \textit{(Mess Management System)}\hfill\href{https://github.com/Himanshumnnit/Mess-Management}{Github Link}
+\vspace{-0.40em}
+\begin{itemize}
+      \item Streamlined user authentication with role-based access and integrated Login/SignUp functionality.\vspace{-.6em}
+    \item Added features like polling, feedback, BMI tracking, and nutrition intake analysis.\vspace{-.6em}
+    \item Enabled dynamic mess menu updates by managers with warden approval for accuracy and transparency.\vspace{-.6em}
+    \item Built an interactive complaint registration portal for students.\vspace{-.6em}
+    \item Improved UX with temporary blocking, guest access, payment gateway, and responsive layout.\vspace{-.4em}
+\end{itemize}
+
+\noindent\textbf{Tech Stack:} MongoDB, Express.js, Node.js, React.js, Bootstrap
+\vspace{-0.2em}
+% \vspace{-.4em}
+
+\item \textbf{ShopFusion} \textit{(E-commerce Platform)}\hfill\href{https://github.com/dinesh2325/SHOP-FUSION}{Github Link}
+\vspace{-0.40em}
+
+\begin{itemize}
+    \item Built role-based Login/SignUp system for secure and personalized access by users and admins.\vspace{-.6em}
+    \item Developed real-time T-shirt customization feature for personalized product design.\vspace{-.6em}
+    \item Built an advanced product filtering system for faster, more accurate searches and improved user experience.\vspace{-.6em}
+    \item Designed a robust admin panel to efficiently manage product data, inventory, and content updates.\vspace{-.6em}
+    \item Integrated a secure payment gateway to ensure smooth, reliable, and trustworthy online transactions.\vspace{-.4em}
+\end{itemize}
+\noindent\textbf{Tech Stack:} MongoDB, Express.js, Node.js, React.js, Bootstrap
+\vspace{-0.5em}
+
+
+% \vspace{-.20em}
+
+\end{rSection}
+% \vspace{-0.4em}
+
+% SKILLS SECTION
+\begin{rSection}{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+     \textbf{Programming Languages}{: C, C++, Golang, JavaScript, TypeScript} \\
+     \textbf{Web Technologies}{: React.js, Express.js, Node.js, Bootstrap, Material UI} \\
+     \textbf{Database Systems}{: MongoDB, MySQL} \\
+     \textbf{DevOps}{: Git, GitHub} \\
+     \textbf{Software Engineering}{:  Data Structures, Algorithms, System Design, OOP, DBMS, OS, Computer Network} \\
+    }}
+ \end{itemize}
+\end{rSection}
+
+\vspace{-1.8em}
+
+% ACHIEVEMENTS SECTION
+\begin{rSection}{Achievements}
+\begin{itemize}
+    \item Secured 2nd place in CodeSangam (Web Dev Event) during Avishkar 2023 among 100+ participants.\vspace{-0.6em}
+    \item Placed 3rd in Codotron (DSA Coding Event), Avishkar 2023; solved real-time algorithmic challenges.\vspace{-0.6em}
+    \item Ranked Top 5.01\% globally on LeetCode with a max rating of 1881; earned Knight badge.\vspace{-0.6em}
+    \item Achieved Pupil rank on Codeforces with a max rating of 1310.\vspace{-0.6em}
+\end{itemize}
+
+\end{rSection}
+
+
+
+
+
+%     \item
+% Collaborated with a skilled team of 15 peoples to develop and present an innovative IoT-Based Smart Dustbin project during a college assessment conducted by NAAC officials. This initiative was highly praised for its originality and practical impact, earning significant accolades.\vspace{-.6em}
+% \end{itemize}
+
+
+\end{rSection}
+
+\end{document}
